@@ -5,6 +5,6 @@ from Tweets
 where char_length(content)>15
 */
 
-Select tweet_id
-from tweets
+select tweet_id
+from Tweets
 where char_length(content)>15
